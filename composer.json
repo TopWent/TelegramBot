@@ -1,0 +1,13 @@
+{
+    "name": "telegram-bot",
+    "type": "standard",
+    "autoload": {
+        "psr-4": {
+            "TelegramBot\\": "src/"
+        }
+    },
+    "bin": ["bin/logic-tasks"],
+    "require": {
+        "telegram-bot/api": "^2.3"
+    }
+}
